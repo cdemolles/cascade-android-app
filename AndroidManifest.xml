@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.schedule"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.schedule.MainActivity"
+            android:label="Cascade Course Schedule" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.schedule.MyListActivity"
+            android:label="Browse Courses" >
+        </activity>
+        <activity
+            android:name="com.example.schedule.CourseList"
+            android:label="@string/title_activity_course_list" >
+        </activity>
+        <activity
+            android:name="com.example.schedule.CourseDescription"
+            android:label="@string/title_activity_course_description" >
+        </activity>
+        <activity
+            android:name="com.example.schedule.Description"
+            android:label="@string/title_activity_description" >
+        </activity>
+        <activity
+            android:name="com.example.schedule.DepartmentList"
+            android:label="@string/title_activity_department_list"
+            android:parentActivityName="android.app.ListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.app.ListActivity" />
+        </activity>
+    </application>
+
+</manifest>

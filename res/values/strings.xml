@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Schedule</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_course_list">CourseList</string>
+    <string name="title_activity_course_description">CourseDescription</string>
+    <string name="title_activity_description">Description</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string-array name="main_menu_array">
+        <item>Browse Schedule</item>
+        <item>Browse Schedule By Department</item>
+    </string-array>
+
+    <string name="title_activity_department_list">DepartmentList</string>
+
+</resources>
